@@ -1,0 +1,24 @@
+{
+  "name": "jokes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewa-mi/jokes.git"
+  },
+  "author": "ewa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ewa-mi/jokes/issues"
+  },
+  "homepage": "https://github.com/ewa-mi/jokes#readme"
+}
