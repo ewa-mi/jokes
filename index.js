@@ -7,11 +7,11 @@ const jokeMessage = (request) => `<html>
   </head>
 
   <body>
-    <h1>Joke goes here ${request.params.age}</h1>
+    <h1>Welcome to the joker's page ${request.params.name}!</h1>
   </body>
 </html>`;
 
-app.get("/user/:age", (request, response) => {
+app.get("/user/:name", (request, response) => {
   response.send(jokeMessage(request));
 });
 
@@ -21,7 +21,4 @@ function onListen() {
 
 const port = 3000;
 
-app.listen(
-  port, // TCP port where the server listens
-  onListen // callback runs when server starts
-);
+app.listen(port, onListen);
